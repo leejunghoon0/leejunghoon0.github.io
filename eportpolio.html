@@ -2,10 +2,10 @@
 <html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
   <script>
 function event1onclick()  { document.getElementById("id_1").innterHTML=" 대전대학교" ; }
-function event2onclick()  { document.getElementById("id_2").innterHTML=" 자바" ; }
-function event3onclick()  { document.getElementById("id_3").innterHTML=" 정보처리기사" ; }
-function event4onclick()  { document.getElementById("id_4").innterHTML=" 영양" ; }
-function event5onclick()  { document.getElementById("id_5").innterHTML=" 캡스톤" ; }
+function event2onclick()  { document.getElementById("id_1").innterHTML=" 자바" ; }
+function event3onclick()  { document.getElementById("id_1").innterHTML=" 정보처리기사" ; }
+function event4onclick()  { document.getElementById("id_1").innterHTML=" 영양" ; }
+function event5onclick()  { document.getElementById("id_1").innterHTML=" 캡스톤" ; }
 </script>
 <style> *{box-sizing:border-box; padding:0; margin:0;}
 .row::after {content:""; clear:both; display:table;}
@@ -25,13 +25,9 @@ function event5onclick()  { document.getElementById("id_5").innterHTML=" 캡스�
 <div class="row"></div>
 <div id="main">
 <nav class="col-3 menu">
-  <ul><li>학력,경력</li><li>수강과목</li><li>자격증</li><li>개인 프로젝트</li><li>해커톤,캡스톤</li></ul></nav>
+  <ul><li onclick="evene1onclick()">학력,경력</li><li>수강과목</li><li>자격증</li><li>개인 프로젝트</li><li>해커톤,캡스톤</li></ul></nav>
 <section class="col-6">
-<p onclick="event1onclick()">1</p><br/>
-<p onclick="event2onclick()">2</p><br/>
-<p onclick="event3onclick()">3</p><br/>
-<p onclick="event4onclick()">4</p><br/>
-<p onclick="event5onclick()">5</p><br/></section>
+  <p id="id_1">메시지표시</p>
 <aside class="col-3 banner">
 <ul><li><img src="http://leejunghoon0.github.io/taegeuk.png">한국</li><li><img src="http://leejunghoon0.github.io/taegeuk.png">Korea</li></ul></aside></div><div class="row"></div>
 <footer class="footer"><h4>Copyright 20XX Korea.</h4></footer></body></html>
